@@ -1,79 +1,85 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+🌾 CropCircle – Farmer Helping Community App
+CropCircle is a community-driven platform designed to help farmers share knowledge, experiences, and practical tips on growing different crops. The app allows farmers to post updates, upload images or videos, and connect with others growing similar crops. It’s built with React Native and Firebase for seamless cross-platform access.
 
-# Getting Started
+🚀 Features
+🔐 Authentication
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Register and login using mobile/email
 
-## Step 1: Start the Metro Server
+Save crop preferences on sign-up
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+🏡 Home Feed
 
-To start Metro, run the following command from the _root_ of your React Native project:
+View community posts from other farmers
 
-```bash
-# using npm
-npm start
+Posts include text, images, and videos
 
-# OR using Yarn
-yarn start
-```
+🎥 Video Tutorials
 
-## Step 2: Start your Application
+Curated videos on crop techniques, tools, and fertilizers
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+🌾 Crop Communities
 
-### For Android
+Join groups based on crop type (e.g., wheat, paddy, tomato)
 
-```bash
-# using npm
-npm run android
+Interact and share ideas
 
-# OR using Yarn
-yarn android
-```
+💬 Forum & Chat
 
-### For iOS
+Discuss problems or ask questions in group chats or forums
 
-```bash
-# using npm
-npm run ios
+🧑‍🌾 Profile
 
-# OR using Yarn
-yarn ios
-```
+Manage personal information and view your contributions
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+🔔 Notifications
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Get notified on replies, new posts in your groups, or tips
 
-## Step 3: Modifying your App
+🛠️ Tech Stack
+Frontend: React Native
 
-Now that you have successfully run the app, let's modify it.
+State Management: Redux
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+Backend: Firebase (Auth, Firestore, Storage)
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+Media Uploads: Firebase Storage
 
-## Congratulations! :tada:
+Testing: Jest + React Native Testing Library
 
-You've successfully run and modified your React Native App. :partying_face:
+📱 Screens
+Splash Screen
 
-### Now what?
+Login & Register
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+Home Feed
 
-# Troubleshooting
+Post Detail
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+Create Post
 
-# Learn More
+Crop Community
 
-To learn more about React Native, take a look at the following resources:
+Video Tips
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Chat / Forum
+
+Profile
+
+Notifications
+
+👨‍🌾 Ideal For
+Farmers trying new crops
+
+Agricultural experts looking to share tips
+
+Community members supporting local farming
+
+💡 Future Enhancements
+Voice-to-text for easy posting
+
+AI-based crop suggestion system
+
+Weather integration
+
+Offline post saving
