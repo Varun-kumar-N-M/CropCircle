@@ -14,7 +14,8 @@ import screenStyles from './LoginScreenStyles';
 import * as CONST from '../../utils/Constants';
 import * as STR_CONST from '../../utils/StringContants';
 import * as IXNUtils from '../../utils/IXNUtils';
-import * as AppConfig from '../../common/AppConfig';
+import * as AppConfig from '../../common/AppConfig'; 
+
 import Scale from '../../utils/Scale';
 import { ScrollView } from 'react-native-gesture-handler';
 import { SafeAreaView } from 'react-native-safe-area-context';
